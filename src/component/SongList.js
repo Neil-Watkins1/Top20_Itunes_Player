@@ -1,5 +1,6 @@
 import React from 'react';
 import SongItem from './SongItem';
+import './SongList.css';
 
 const SongList = (props) => {
 if(!props) return null;
@@ -8,7 +9,7 @@ if(!props) return null;
       </SongItem>
     })
     return(
-      <div className ="full-list">
+      <div className="flexi-container">
       {listOfSongs}
       </div>
     )

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import SongList from '../component/SongList'
 import SongItem from '../component/SongItem'
-
+import './ItunesContainer.css'
 class ItunesContainer extends Component {
 
 constructor(props){
@@ -20,8 +20,8 @@ componentDidMount(){
 
 render(){
   return (
-    <div>
-      <h2>Itunes Container</h2>
+    <div className="container">
+      <h1>Itunes Current Top 20</h1>
       <SongList songs={this.state.songs}/>
 
     </div>
