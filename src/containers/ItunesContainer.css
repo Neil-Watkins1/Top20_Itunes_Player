@@ -4,11 +4,18 @@
 background-repeat: no-repeat;
 background-size: cover ;
 color: white;
-font:
+/* font-family: 'EB Garamond', serif; */
+/* font-family: 'Noto Serif TC', serif;*/
+font-family: 'Raleway', sans-serif;
+
+
+
 
 }
 
 h1{
   margin: 20px;
-
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  color: grey;
 }
